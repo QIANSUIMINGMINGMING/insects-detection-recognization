@@ -1,0 +1,9 @@
+<view class="authentication">
+  <view class="headPortrait" bindtap="upload">
+    <view class="up-img-header">
+      <image mode="aspectFill" src="{{Url==''?'':Url}}" class="headerurl" ></image>
+    </view>
+    <view class="up-img-txts">点击直接上传照片</view>
+  </view>
+  <image class="img" src="{{headerUrl}}"></image>
+</view>
